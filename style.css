@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Chivo", sans-serif;
+  
+
 }
 
 .logo-mario {
@@ -19,7 +22,6 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 30px;
-
 }
 
 .contato:hover {
@@ -32,12 +34,10 @@
 
 .logo-mario-luigi {
     height: 500px;
-
 }
 
 body {
     height: 100vh;
-
 }
 
 .caixa-mae {
@@ -46,20 +46,16 @@ body {
     justify-content: space-around;
     padding: 100px;
     height: 100vh;
-
 }
 
 .caixa-principal {
     width: 40%;
-
 }
 
 .caixa-video {
     position: fixed;
     top: 0;
     z-index: -1;
-
-
 }
 
 video {
@@ -75,20 +71,17 @@ video {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
-
 }
 
 p {
     color: white;
     font-size: 20px;
 }
-
 .link-whatsapp img {
     height: 60px;
     position: fixed;
     right: 20px;
     bottom: 20px;
-
 }
 
 .header img {
@@ -106,7 +99,6 @@ p {
     color: white;
     font-size: 24px;
     cursor: pointer;
-
 }
 
 .header a:hover {
@@ -126,7 +118,6 @@ p {
     padding: 20px;
     border-radius: 5px;
     transition: left 1s ease-in-out;
-
 }
 
 input {
@@ -136,7 +127,6 @@ input {
     padding-left: 5px;
     outline-color: #18D80F;
     font-size: 18px;
-
 }
 
 textarea {
@@ -160,8 +150,6 @@ textarea {
     text-transform: uppercase;
     font-weight: bold;
     margin: 20px 30px;
-
-
 }
 
 .orçamento:hover {
@@ -185,13 +173,10 @@ textarea {
         display: none;
     }
 
-
-
     .caixa-mae {
         flex-direction: column;
         justify-content: flex-start;
         padding: 10px;
-
     }
 
     .caixa-principal {
@@ -203,7 +188,6 @@ textarea {
     .logo-mario-luigi {
         width: 80vw;
         height: auto;
-
     }
 
     .header {
@@ -213,13 +197,11 @@ textarea {
         justify-content: center;
     }
 
-
     .header img {
         display: none;
     }
 
     .header a {
         font-size: 18px;
-
     }
 }
